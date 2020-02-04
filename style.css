@@ -1,0 +1,25 @@
+/*
+CSS basics:
+
+CSS syntax goes as follows
+
+selector {
+  property: value;
+  }
+
+The selector identifies which element to apply the properties to.
+Examples include
+- The name of an element, minus the greater and less than signs (so to apply a property to all <p> elements, you would simply write the letter p.
+- Class names and IDs. Class names are preceeded by a full stop, while IDs are preceeded by a hash symbol (#).
+- You can also combine these. So to select all the cows on the farm, you could do #cow #farm, or to select all the images on the farm, you could do img #farm.
+
+The property and value are fairly self-explanatory. See below for an example.
+*/
+
+#farm {
+  background-color: #608038;
+}
+
+.cow_box {
+  display: inline-block;
+}
